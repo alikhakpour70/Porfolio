@@ -1,0 +1,141 @@
+.appTodoContainer {
+  width: 100%;
+  max-width: 1150px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titelName {
+  margin: 0 35px;
+  padding: 0 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f35212;
+  width: 100%;
+  font-family: cursive;
+}
+.homeIcone {
+  width: 35px;
+  height: 35px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #659ffc;
+  padding: 5px 0 0 8px;
+  border-radius: 50%;
+}
+
+
+
+
+.appTodoContainer h3 {
+  margin: 30px;
+}
+
+.todoform {
+  width: 90%;
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.todoform input {
+  width: 75%;
+  padding: 9px;
+  border-radius: 5px;
+  /* outline: none; */
+  border: 1px solid #b3d9f5;
+}
+.todoform input:focus {
+  outline: #3b82f6;
+  /* background-color: #95c1f7; */
+  border: 2px solid #420dff;
+}
+.todoform button {
+  border-radius: 5px;
+  padding: 3px 10px;
+  background-color: #659ffc;
+  border: 1px solid #7270f7;
+  color: #f7f3f2;
+  cursor: pointer;
+}
+.todoform input:focus {
+  border: 1px solid rgb(4, 60, 88);
+}
+.todolist {
+  width: 90%;
+  margin-top: 20px;
+}
+.todolist .todoContainer {
+  border-radius: 5px;
+  background-color: #cffafe;
+  color: #0b0235;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 15px 6px 4px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.865);
+}
+.todolist .checkBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkBox input {
+  margin-right: 10px;
+}
+.todolist .icons i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.todolist .trash {
+  color: #960606;
+}
+
+.selectTodo {
+  width: 90%;
+  margin: 10px 0;
+  color: #05011a;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgba(55, 5, 238, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.completed p {
+  margin-right: 5px;
+}
+
+.unCompleted {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.checkIcon {
+  margin-right: 10px;
+  transform: translate(0, 3px);
+}
+
+@media (min-width: 765px) {
+  .appTodoContainer {
+    width: 74vw;
+  }
+  .appTodoContainer h2 {
+    top: 5%;
+    left: 28vw;
+  }
+  .todolist .todoContainer {
+    padding: 10px;
+  }
+}

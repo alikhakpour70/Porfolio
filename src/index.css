@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: titr;
+  src: url('./fonts/IRTitr.ttf');
+}
+@font-face {
+  font-family: yekan;
+  src: url('./fonts/IRYekan.ttf');
+}
+@font-face {
+  font-family: iranSans;
+  src: url('./fonts/Iranian\ Sans.ttf');
+}
+@font-face {
+  font-family: estedad;
+  src: url('./fonts/Estedad-Medium.ttf');
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+background-color: #f2f2ff;
+}
+a{
+  text-decoration: none;
+}
